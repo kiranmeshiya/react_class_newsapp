@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+/* alegreya-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/alegreya-v35-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/alegreya-v35-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/alegreya-v35-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/alegreya-v35-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/alegreya-v35-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/alegreya-v35-latin-regular.svg#Alegreya') format('svg'); /* Legacy iOS */
+}
+/* alegreya-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/alegreya-v35-latin-500.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/alegreya-v35-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/alegreya-v35-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/alegreya-v35-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/alegreya-v35-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/alegreya-v35-latin-500.svg#Alegreya') format('svg'); /* Legacy iOS */
+}
+/* alegreya-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/alegreya-v35-latin-600.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/alegreya-v35-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/alegreya-v35-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/alegreya-v35-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/alegreya-v35-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/alegreya-v35-latin-600.svg#Alegreya') format('svg'); /* Legacy iOS */
+}
+/* alegreya-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./fonts/alegreya-v35-latin-900.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/alegreya-v35-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/alegreya-v35-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/alegreya-v35-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/alegreya-v35-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/alegreya-v35-latin-900.svg#Alegreya') format('svg'); /* Legacy iOS */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*  ================== Custom CSS ==================== */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body
+{
+  font-family: 'Alegreya';
+  font-weight: 400;
+  font-style: normal;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.imgcard
+{
+  height: 250px!important;
+  width: 100%!important;
 }
-
-.App-link {
-  color: #61dafb;
+.spin_div
+{
+  height: 600px;
+  margin: auto;
+  margin-top: 100px!important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sorce
+{
+  position: absolute;
+  z-index: 1;
+  left:52%;
+  padding: 5px;
+  font-size: 18px;
+  width: 120px;
+  
 }
